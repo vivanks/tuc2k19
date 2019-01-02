@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = [ "Amsterdam.", "Full Service.", "Webdevelopment.", "Vivank"];
+  var dataText = [ "TUC- WHERE TECHNOLOGY MEETS DIPLOMACY","TECHNICAL UNITED CONFERENCE:2019","EXPERIENCE WHAT YOU HAVE NEVER BEFORE","AFTER SUCCESSFUL SEVEN EDITIONS","THIS TIME BIGGER AND BETTER","WITH TODAYS HYPED AGENDAS ON FIRE","SPEAK UP FOR THE WORLD NEEDS YOU","REGISTER TODAY FOR VIT-TUC 2019"];
   
   // type one text in the typwriter
   // keeps calling itself until the text is finished
