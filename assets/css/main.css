@@ -1061,7 +1061,29 @@ input, select, textarea {
 			background-color: #ffffff;
 			color: #1b1f22 !important;
 			font-weight: 600;
+			width: 50%;
+			align-self: center;
+			font-size: 30px;
+			margin-left: 25%;
+			margin-top: 70px;
 		}
+	@media screen and (max-width: 480px) {
+
+		input[type="submit"].primary,
+		input[type="reset"].primary,
+		input[type="button"].primary,
+		button.primary,
+		.button.primary {
+			background-color: #ffffff;
+			color: #1b1f22 !important;
+			font-weight: 600;
+			width: 50%;
+			align-self: center;
+			font-size: 30px;
+			margin-left: 25%;
+			margin-top: 70px;
+		}
+	} 
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
@@ -1896,3 +1918,45 @@ body {
 
 	}
 
+.about1{
+width:800px; height: 350px;
+}
+.about3
+{
+	height: 43px ;
+}
+.about2{
+	color: white; width:885px; height: 350px; font-size: 17px; background-color: black;
+}
+.about4{
+	font-size: 25px; text-align: center; margin-top: 8px;
+}
+.about5{
+	background-color: black;
+}
+.about6{
+	font-size: 20px;
+}
+@media screen and (max-width: 980px) {
+
+		.about1{
+width:400px; height: 150px;
+}
+.about3
+{
+	height: 45px ;
+}
+.about2{
+	color: white; width:485px; height: 450px; font-size: 17px; background-color: black;
+}
+.about4{
+	font-size: 15px; text-align: center; margin-top: 4px;
+}
+.about5{
+	background-color: black;
+}
+.about6{
+	font-size: 20px;
+}
+		}
+	} 
