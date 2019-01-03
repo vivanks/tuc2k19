@@ -1708,10 +1708,13 @@ input, select, textarea {
 }
 /*social bar*/
 
-
+.icon1{
+	 margin-right: 1360px;
+}
 .icon-bar {
   position: fixed;
   top: 50%;
+ 
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -1860,5 +1863,36 @@ body {
     color: #a5a5a5;
     letter-spacing: 1px;
 }
+@media screen and (max-width: 991px) {
+	.icon1{
+		margin-right: 400px;
 
+	
+	}
+.icon-bar {
+
+  position: fixed;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  margin-right:0;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+		
+
+	}
 
