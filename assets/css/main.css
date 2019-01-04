@@ -1605,7 +1605,7 @@ input, select, textarea {
 			#main article {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
 				width: 1230px;
-			height: 4000px;
+			height: 5000px;
 			}
 
 				#main article .close:before {
@@ -1964,3 +1964,37 @@ width:485px; height: 150px;
 }
 		}
 	} 
+.social-footer {
+  padding: 1rem;
+  background: $dark-gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+  .social-footer-icons {
+    li:last-of-type {
+      margin-right: 0;
+    }
+
+    .fa {
+      font-size: 10px;
+      color: $white;
+
+      &:hover {
+        color: darken($dark-gray, 25%);
+        transition: color 0.3s ease-in;
+      }
+    }
+  }
+}
+
+.fmargin{
+	margin-left: 00px;
+	margin-bottom: -100px;
+}
+@media screen and (max-width: 980px) {
+	.fmargin{
+		margin-left: 0px;
+	}
+}
