@@ -1543,11 +1543,13 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			/*width: 40rem;*/
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
 			opacity: 0;
+			width: 1230px;
+			height: 2000px;
 		}
 
 			#main article.active {
@@ -1602,6 +1604,8 @@ input, select, textarea {
 
 			#main article {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
+				width: 1230px;
+			height: 4000px;
 			}
 
 				#main article .close:before {
